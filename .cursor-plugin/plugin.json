@@ -1,0 +1,22 @@
+{
+  "name": "fluttergo",
+  "version": "1.0.0",
+  "description": "Create, preview, build, and deploy Flutter apps via FlutterGo.AI cloud MCP (OAuth).",
+  "author": {
+    "name": "FlutterGo.AI",
+    "email": "support@fluttergo.ai"
+  },
+  "homepage": "https://fluttergo.ai/integrations/mcp/",
+  "repository": "https://github.com/fasmartpaf/fluttergo-cursor",
+  "license": "Apache-2.0",
+  "keywords": [
+    "fluttergo",
+    "flutter",
+    "mcp",
+    "oauth",
+    "preview",
+    "android"
+  ],
+  "logo": "assets/logo.svg",
+  "mcpServers": "mcp.json"
+}

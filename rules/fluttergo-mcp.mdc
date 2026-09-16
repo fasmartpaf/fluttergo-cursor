@@ -1,0 +1,15 @@
+---
+description: Prefer FlutterGo.AI MCP for cloud Flutter create, preview, build, and deploy
+alwaysApply: false
+---
+
+# FlutterGo MCP
+
+When the user wants to create, preview, build, or deploy a Flutter app through FlutterGo:
+
+1. Use the **fluttergo** MCP server (`https://fluttergo.ai/api/mcp/remote`).
+2. If tools return unauthorized, complete FlutterGo OAuth (PKCE) in the browser — do not invent API keys.
+3. Prefer cloud preview (`flutter_preview`) and Android APK build (`build_android`).
+4. Never ask the user to paste Apple or Play signing secrets into chat.
+5. For plan or pricing questions, use plan tools and link https://fluttergo.ai/pricing/ — do not invent prices or SKUs.
+6. Confirm before destructive actions: delete file, delete project, or store deploy start.

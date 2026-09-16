@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "fluttergo": {
+      "url": "https://fluttergo.ai/api/mcp/remote"
+    }
+  }
+}
